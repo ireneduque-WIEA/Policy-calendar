@@ -1,17 +1,7 @@
 {
  "commission_calendar": [],
  "ep_thinktank_events": [],
- "envi_agendas": [
-  {
-   "uid": "eac6163d9530fdb6fca9",
-   "source": "envi_agendas",
-   "title": "[Omnibus VIII] ENVI committee",
-   "start": "2026-11-04",
-   "end": "2026-11-04",
-   "url": "https://emeeting.europarl.europa.eu/emeeting/committee/en/agenda/202611/ENVI",
-   "description": "On the agenda:\n- Speeding-up environmental assessments\n- ***I 2025/0391(COD) COM(2025)0984 - C10-0337/2025\n- Amendment - PE790.190 - Proposal for a Regulation of the European Parliament and of the Council on speeding-up environmental assessments\n- Amendment - PE790.193 - Proposal for a Regulation of the European Parliament and of the Council on speeding-up environmental assessments\n- Draft report / Draft recommendation - PE788.874 - Proposal for a Regulation of the European Parliament and of the Council on speeding-up environmental assessments\n- Miscellaneous - EIA_Final_VL - Speeding-up environmental assessments - voting list\n- Miscellaneous - ENVI_EIA-Final_CAs - Speeding-up environmental assessments - compromise amendments\n- COM - COM(2025)0984 - Proposal for a Regulation of the European Parliament and of the Council on speeding-up environmental assessments"
-  }
- ],
+ "envi_agendas": [],
  "have_your_say": [
   {
    "uid": "43a46c870c1d2da3102c",
@@ -59,5 +49,33 @@
    "description": "Feedback / consultation closes today."
   }
  ],
- "legislative_train": []
+ "legislative_train": [
+  {
+   "uid": "0af13c10cc421766b069",
+   "source": "legislative_train",
+   "title": "Legislative Train – Last update: WFD revision",
+   "start": "2026-10-25",
+   "end": "2026-10-25",
+   "url": "https://www.europarl.europa.eu/legislative-train/theme-sustaining-our-quality-of-life-food-security-water-and-nature/file-targeted-revision-of-the-water-framework-directive",
+   "description": "Page shows an entry dated 2026-10-25. Status: Announced."
+  },
+  {
+   "uid": "32b90e8011840d215606",
+   "source": "legislative_train",
+   "title": "Legislative Train – Last update: Omnibus VIII",
+   "start": "2026-11-04",
+   "end": "2026-11-04",
+   "url": "https://www.europarl.europa.eu/legislative-train/theme-sustaining-our-quality-of-life-food-security-water-and-nature/file-omnibus-viii-environment-speeding-up-environmental-assessments",
+   "description": "Page shows an entry dated 2026-11-04. Status: Tabled."
+  },
+  {
+   "uid": "6726f014972c02a1835a",
+   "source": "legislative_train",
+   "title": "Legislative Train – Last update: Water Resilience Strategy",
+   "start": "2026-10-25",
+   "end": "2026-10-25",
+   "url": "https://www.europarl.europa.eu/legislative-train/theme-sustaining-our-quality-of-life-food-security-water-and-nature/file-european-water-resilience-strategy",
+   "description": "Page shows an entry dated 2026-10-25. Status: Announced."
+  }
+ ]
 }
