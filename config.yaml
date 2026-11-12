@@ -75,7 +75,8 @@ sources:
     rss: "https://www.europarl.europa.eu/thinktank/en/events/rss"
 
   ep_plenary:
-    enabled: true
+    # Off: plenary dates are fixed a year ahead and listed in manual_events.yaml
+    enabled: false
     # EP Open Data Portal – plenary sitting days
     api: "https://data.europarl.europa.eu/api/v2/meetings"
 

@@ -9,12 +9,6 @@
   description: "Main candidates: Feijóo (PP), Sánchez (PSOE), Abascal (Vox). Polls: PP first, needs Vox for a majority."
   url: "https://odihr.osce.org/odihr/elections"
 
-- title: "[Omnibus VIII] EP plenary – vote on speeding up environmental assessments (expected)"
-  date: 2026-11-23
-  end: 2026-11-26
-  description: "Plenary vote on ENVI report (Ytterell) expected during this session; opens trilogues with Council."
-  url: "https://www.europarl.europa.eu/legislative-train/theme-sustaining-our-quality-of-life-food-security-water-and-nature/file-omnibus-viii-environment-speeding-up-environmental-assessments"
-
 - title: "Environment Council"
   date: 2026-12-11
   description: "Agenda highlights published about a week before."
@@ -35,3 +29,101 @@
 - title: "ELECTION: France – presidential, 2nd round"
   date: 2027-05-02
   url: "https://odihr.osce.org/odihr/elections"
+
+# ---- EP plenary sessions (official 2026 and 2027 calendars) ----
+
+- title: "[Omnibus VIII] EP plenary session (Strasbourg)"
+  date: 2026-11-23
+  end: 2026-11-26
+  description: "Omnibus VIII (speeding up environmental assessments): plenary vote on the ENVI report (Ytterell) expected this session; opens trilogues with Council."
+  url: "https://www.europarl.europa.eu/plenary/en/home.html"
+
+- title: "EP plenary session (Strasbourg)"
+  date: 2026-12-14
+  end: 2026-12-17
+  description: "Check the plenary agenda for votes on your files."
+  url: "https://www.europarl.europa.eu/plenary/en/home.html"
+
+- title: "EP plenary session (Strasbourg)"
+  date: 2027-01-18
+  end: 2027-01-21
+  description: "Check the plenary agenda for votes on your files."
+  url: "https://www.europarl.europa.eu/plenary/en/home.html"
+
+- title: "EP plenary session (Strasbourg)"
+  date: 2027-02-15
+  end: 2027-02-18
+  description: "Check the plenary agenda for votes on your files."
+  url: "https://www.europarl.europa.eu/plenary/en/home.html"
+
+- title: "EP plenary session (Strasbourg)"
+  date: 2027-03-08
+  end: 2027-03-11
+  description: "Check the plenary agenda for votes on your files."
+  url: "https://www.europarl.europa.eu/plenary/en/home.html"
+
+- title: "EP plenary session (Strasbourg)"
+  date: 2027-04-12
+  end: 2027-04-15
+  description: "Check the plenary agenda for votes on your files."
+  url: "https://www.europarl.europa.eu/plenary/en/home.html"
+
+- title: "EP plenary session (Brussels)"
+  date: 2027-04-28
+  end: 2027-04-29
+  description: "Check the plenary agenda for votes on your files."
+  url: "https://www.europarl.europa.eu/plenary/en/home.html"
+
+- title: "EP plenary session (Strasbourg)"
+  date: 2027-05-24
+  end: 2027-05-27
+  description: "Check the plenary agenda for votes on your files."
+  url: "https://www.europarl.europa.eu/plenary/en/home.html"
+
+- title: "EP plenary session (Strasbourg)"
+  date: 2027-06-14
+  end: 2027-06-17
+  description: "Check the plenary agenda for votes on your files."
+  url: "https://www.europarl.europa.eu/plenary/en/home.html"
+
+- title: "EP plenary session (Strasbourg)"
+  date: 2027-07-05
+  end: 2027-07-08
+  description: "Check the plenary agenda for votes on your files."
+  url: "https://www.europarl.europa.eu/plenary/en/home.html"
+
+- title: "EP plenary session (Strasbourg)"
+  date: 2027-09-13
+  end: 2027-09-16
+  description: "Check the plenary agenda for votes on your files."
+  url: "https://www.europarl.europa.eu/plenary/en/home.html"
+
+- title: "EP plenary session (Strasbourg)"
+  date: 2027-10-04
+  end: 2027-10-07
+  description: "Check the plenary agenda for votes on your files."
+  url: "https://www.europarl.europa.eu/plenary/en/home.html"
+
+- title: "EP plenary session (Strasbourg)"
+  date: 2027-10-18
+  end: 2027-10-21
+  description: "Check the plenary agenda for votes on your files."
+  url: "https://www.europarl.europa.eu/plenary/en/home.html"
+
+- title: "EP plenary session (Brussels)"
+  date: 2027-11-10
+  end: 2027-11-11
+  description: "Check the plenary agenda for votes on your files."
+  url: "https://www.europarl.europa.eu/plenary/en/home.html"
+
+- title: "EP plenary session (Strasbourg)"
+  date: 2027-11-22
+  end: 2027-11-25
+  description: "Check the plenary agenda for votes on your files."
+  url: "https://www.europarl.europa.eu/plenary/en/home.html"
+
+- title: "EP plenary session (Strasbourg)"
+  date: 2027-12-13
+  end: 2027-12-16
+  description: "Check the plenary agenda for votes on your files."
+  url: "https://www.europarl.europa.eu/plenary/en/home.html"

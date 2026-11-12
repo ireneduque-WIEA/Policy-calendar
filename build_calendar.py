@@ -81,6 +81,25 @@ def find_dates(text: str) -> list[dt.date]:
     return [d for _, d in found]
 
 
+MONTH_YEAR_PATTERNS = [
+    re.compile(r"(?<![\d./])(\d{1,2})[./-](\d{4})\b"),                 # 10.2026, 10/2026
+    re.compile(rf"\b({_MONTH_RE})\.?\s+(\d{{4}})\b", re.I),             # October 2026
+]
+
+
+def find_month_dates(text: str) -> list[dt.date]:
+    """Dates given only as month + year (e.g. Legislative Train entries) -> 1st of month."""
+    out = []
+    for rx in MONTH_YEAR_PATTERNS:
+        for a, y in rx.findall(text or ""):
+            try:
+                month = int(a) if a.isdigit() else MONTHS[a.lower()]
+                out.append(dt.date(int(y), month, 1))
+            except (ValueError, KeyError):
+                continue
+    return out
+
+
 def clean(html_or_text: str) -> str:
     text = BeautifulSoup(html_or_text or "", "html.parser").get_text(" ")
     return re.sub(r"\s+", " ", text).strip()
@@ -92,23 +111,62 @@ def fetch(url: str, **kw) -> requests.Response:
     return r
 
 
-def render(urls: list[str], wait_ms: int = 4000) -> dict[str, tuple[str, list[str]]]:
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
+
+
+def render(urls: list[str], wait_ms: int = 5000) -> dict[str, tuple[str, list[str], str]]:
     """Open pages in a headless browser (for sites that load content with
-    JavaScript). Returns {url: (visible_text, [links])}."""
+    JavaScript or block simple scripts). Returns {url: (text, [links], html)}.
+    Pages that fail are left out; if *all* fail, the last error is raised."""
     from playwright.sync_api import sync_playwright
 
-    out = {}
+    out, last_error = {}, None
     with sync_playwright() as p:
-        browser = p.chromium.launch()
-        page = browser.new_page(user_agent=HEADERS["User-Agent"], locale="en-GB")
+        browser = p.chromium.launch(args=["--disable-blink-features=AutomationControlled"])
+        ctx = browser.new_context(user_agent=BROWSER_UA, locale="en-GB",
+                                  viewport={"width": 1366, "height": 900})
+        page = ctx.new_page()
         for url in urls:
-            page.goto(url, wait_until="networkidle", timeout=90_000)
-            page.wait_for_timeout(wait_ms)
-            text = page.inner_text("body")
-            links = page.eval_on_selector_all("a[href]", "els => els.map(e => e.href)")
-            out[url] = (text, links)
+            try:
+                resp = page.goto(url, wait_until="domcontentloaded", timeout=60_000)
+                page.wait_for_timeout(wait_ms)
+                if resp is not None and resp.status >= 400:
+                    raise RuntimeError(f"HTTP {resp.status} for {url}")
+                text = page.inner_text("body")
+                links = page.eval_on_selector_all("a[href]", "els => els.map(e => e.href)")
+                out[url] = (text, links, page.content())
+            except Exception as exc:  # noqa: BLE001
+                last_error = exc
+                print(f"      browser could not load {url}: {exc}")
         browser.close()
+    if urls and not out and last_error:
+        raise last_error
     return out
+
+
+def fetch_html(url: str) -> str:
+    """Get a page's HTML; fall back to the headless browser if the site
+    blocks plain scripted requests."""
+    try:
+        return fetch(url).text
+    except requests.RequestException as exc:
+        print(f"      plain request failed ({exc}); trying browser")
+    return render([url])[url][2]
+
+
+def fetch_bytes(url: str) -> bytes:
+    """Download a file (e.g. a PDF); fall back to the browser's network stack."""
+    try:
+        return fetch(url).content
+    except requests.RequestException:
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as p:
+            req = p.request.new_context(user_agent=BROWSER_UA)
+            resp = req.get(url, timeout=60_000)
+            if not resp.ok:
+                raise RuntimeError(f"HTTP {resp.status} for {url}")
+            return resp.body()
 
 
 class Matcher:
@@ -233,13 +291,13 @@ def src_envi_agendas(cfg, m):
         d = (d + dt.timedelta(days=32)).replace(day=1)
     month_urls = [cfg["url_template"].format(yyyymm=mm) for mm in months]
     pages = render(month_urls)
-    meeting_urls = sorted({link for _, (_, links) in pages.items() for link in links
+    meeting_urls = sorted({link for _, (_, links, _) in pages.items() for link in links
                            if "meeting=ENVI" in link})[:12]
     if meeting_urls:
         pages.update(render(meeting_urls))
 
     per_day: dict[dt.date, dict] = {}
-    for url, (text, _) in pages.items():
+    for url, (text, _, _) in pages.items():
         current = None
         for line in text.splitlines():
             line = line.strip()
@@ -279,15 +337,12 @@ COUNCIL_LINK = re.compile(r"/en/meetings/([a-z0-9-]+)/(\d{4})/(\d{1,2})/(\d{1,2}
 def src_council_meetings(cfg, m):
     confs = set(cfg.get("configurations", []))
     url = cfg["calendar_url"]
-    links: list[tuple[str, str]] = []
-    try:
-        soup = BeautifulSoup(fetch(url).text, "html.parser")
+    soup = BeautifulSoup(fetch_html(url), "html.parser")
+    links = [(a["href"], a.get_text(" ", strip=True)) for a in soup.find_all("a", href=True)]
+    if not any(COUNCIL_LINK.search(h) for h, _ in links):  # links added by JS -> use browser
+        _, hrefs, html = render([url])[url]
+        soup = BeautifulSoup(html, "html.parser")
         links = [(a["href"], a.get_text(" ", strip=True)) for a in soup.find_all("a", href=True)]
-    except requests.RequestException:
-        pass
-    if not any(COUNCIL_LINK.search(h) for h, _ in links):  # page loads via JS -> use browser
-        _, hrefs = render([url])[url]
-        links = [(h, "") for h in hrefs]
 
     seen, events = set(), []
     for href, text in links:
@@ -311,12 +366,12 @@ def src_council_meetings(cfg, m):
         # Look inside the meeting page for your files (agenda appears ~1 week before)
         if TODAY <= day <= TODAY + dt.timedelta(days=21):
             try:
-                page = clean(fetch(full).text)
+                page = clean(fetch_html(full))
                 files, related = m.match(page)
                 hits = m.snippets(page, 5)
                 if hits:
                     desc = "Mentions on meeting page:\n- " + "\n- ".join(hits)
-            except requests.RequestException:
+            except Exception:  # noqa: BLE001 - the meeting itself still goes in
                 pass
         events.append(make_event("council_meetings", f"{m.label(files, related)}{title}",
                                  day, full, desc))
@@ -328,7 +383,7 @@ def src_council_meetings(cfg, m):
 def src_coreper1_agendas(cfg, m):
     from pypdf import PdfReader
 
-    soup = BeautifulSoup(fetch(cfg["register_url"]).text, "html.parser")
+    soup = BeautifulSoup(fetch_html(cfg["register_url"]), "html.parser")
     by_day: dict[dt.date, dict] = {}
     count = 0
     for a in soup.find_all("a", href=True):
@@ -355,7 +410,7 @@ def src_coreper1_agendas(cfg, m):
         if count > int(cfg.get("max_documents", 15)):
             break
         try:
-            pdf = PdfReader(io.BytesIO(fetch(href).content))
+            pdf = PdfReader(io.BytesIO(fetch_bytes(href)))
             text = "\n".join((p.extract_text() or "") for p in pdf.pages)
         except Exception:  # noqa: BLE001 - a single bad PDF must not stop the run
             continue
@@ -426,10 +481,13 @@ def src_legislative_train(cfg, m, state):
     memory = state.setdefault("legislative_train", {})
     events = []
     for name, url in cfg["files"].items():
-        text = clean(fetch(url).text)
-        dates = [d for d in find_dates(text) if d <= TODAY]
+        text = clean(fetch_html(url))
+        dates = [d for d in find_dates(text) + find_month_dates(text) if d <= TODAY]
+        if not dates:  # content probably loaded by JavaScript -> use the browser
+            text = clean(render([url])[url][0])
+            dates = [d for d in find_dates(text) + find_month_dates(text) if d <= TODAY]
         if not dates:
-            continue
+            raise RuntimeError(f"no dates found on Legislative Train page for {name}")
         latest = max(dates)
         status = re.search(r"\b(Announced|Tabled|Blocked|Close to adoption|"
                            r"Adopted\s*/\s*Completed|Withdrawn)\b", text)
