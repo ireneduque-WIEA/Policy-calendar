@@ -1,0 +1,42 @@
+name: Update policy calendar
+
+on:
+  schedule:
+    - cron: "15 4 * * *"   # every day at 04:15 UTC (05:15/06:15 Brussels)
+  workflow_dispatch:        # adds a "Run workflow" button for manual runs
+
+permissions:
+  contents: write
+
+concurrency:
+  group: calendar
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install tools
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Build calendar
+        run: python build_calendar.py
+
+      - name: Save updated calendar
+        run: |
+          date -u +"%Y-%m-%dT%H:%MZ" > data/last_run.txt
+          git config user.name  "calendar-bot"
+          git config user.email "calendar-bot@users.noreply.github.com"
+          git add events.ics status.html data/
+          git commit -m "Calendar update $(date -u +%F)" || echo "Nothing changed"
+          git push
