@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:0af13c10cc421766b069@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Legislative Train – Last update: WFD revision
@@ -24,7 +24,7 @@ URL:https://www.europarl.europa.eu/legislative-train/theme-sustaining-our-q
 END:VEVENT
 BEGIN:VEVENT
 UID:6726f014972c02a1835a@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Legislative Train – Last update: Water Resilience Strategy
@@ -39,7 +39,7 @@ URL:https://www.europarl.europa.eu/legislative-train/theme-sustaining-our-q
 END:VEVENT
 BEGIN:VEVENT
 UID:32b90e8011840d215606@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:Legislative Train – Last update: Omnibus VIII
@@ -54,7 +54,7 @@ URL:https://www.europarl.europa.eu/legislative-train/theme-sustaining-our-q
 END:VEVENT
 BEGIN:VEVENT
 UID:ff6e679397e02d48f4d8@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261127
 SUMMARY:[Omnibus VIII] EP plenary session (Strasbourg)
@@ -66,7 +66,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:ccef05cd32228c601b8e@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:[related] Have your say DEADLINE: Introduction of over-the-air upda
@@ -80,7 +80,7 @@ URL:https://ec.europa.eu/info/law/better-regulation/have-your-say/initiativ
 END:VEVENT
 BEGIN:VEVENT
 UID:43a46c870c1d2da3102c@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:[related] Have your say DEADLINE: Road transport smart enforcement 
@@ -93,7 +93,7 @@ URL:https://ec.europa.eu/info/law/better-regulation/have-your-say/initiativ
 END:VEVENT
 BEGIN:VEVENT
 UID:c9a93ae4ba25aba28231@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:[related] Have your say DEADLINE: Simplification of reporting requi
@@ -107,7 +107,7 @@ URL:https://ec.europa.eu/info/law/better-regulation/have-your-say/initiativ
 END:VEVENT
 BEGIN:VEVENT
 UID:d87495066807acb82fd7@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:[related] Have your say DEADLINE: Smart enforcement and simplificat
@@ -120,7 +120,7 @@ URL:https://ec.europa.eu/info/law/better-regulation/have-your-say/initiativ
 END:VEVENT
 BEGIN:VEVENT
 UID:66759d3c71f4691ecba8@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:[related] Have your say DEADLINE: Smart enforcement and simplificat
@@ -133,7 +133,7 @@ URL:https://ec.europa.eu/info/law/better-regulation/have-your-say/initiativ
 END:VEVENT
 BEGIN:VEVENT
 UID:19bcedd9e181d105e373@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:ELECTION: Spain – snap general election
@@ -145,7 +145,7 @@ URL:https://odihr.osce.org/odihr/elections
 END:VEVENT
 BEGIN:VEVENT
 UID:071de4fc36df2d3ee335@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Environment Council
@@ -156,7 +156,7 @@ URL:https://www.consilium.europa.eu/en/meetings/env/2026/12/11/
 END:VEVENT
 BEGIN:VEVENT
 UID:2bcd0fe65655d4128c8d@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261218
 SUMMARY:EP plenary session (Strasbourg)
@@ -167,7 +167,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:0aac62d60b230a4b7708@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270122
 SUMMARY:EP plenary session (Strasbourg)
@@ -178,7 +178,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:86221eff7856b35bf904@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270219
 SUMMARY:EP plenary session (Strasbourg)
@@ -189,7 +189,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:1ca263fb9d47e72316cc@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:ELECTION: Estonia – parliamentary (Riigikogu)
@@ -199,7 +199,7 @@ URL:https://odihr.osce.org/odihr/elections
 END:VEVENT
 BEGIN:VEVENT
 UID:fdcc072c72e10cd4e7d4@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20270308
 DTEND;VALUE=DATE:20270312
 SUMMARY:EP plenary session (Strasbourg)
@@ -210,7 +210,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:9d184d5a062870178615@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20270412
 DTEND;VALUE=DATE:20270416
 SUMMARY:EP plenary session (Strasbourg)
@@ -221,7 +221,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:313ea237780cf7bca3eb@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20270418
 DTEND;VALUE=DATE:20270419
 SUMMARY:ELECTION: Finland – parliamentary
@@ -231,7 +231,7 @@ URL:https://odihr.osce.org/odihr/elections
 END:VEVENT
 BEGIN:VEVENT
 UID:4f28764d4baf1e2d9dd0@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20270418
 DTEND;VALUE=DATE:20270419
 SUMMARY:ELECTION: France – presidential\, 1st round
@@ -241,7 +241,7 @@ URL:https://odihr.osce.org/odihr/elections
 END:VEVENT
 BEGIN:VEVENT
 UID:205f733c8b84ffad2bb9@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20270428
 DTEND;VALUE=DATE:20270430
 SUMMARY:EP plenary session (Brussels)
@@ -252,7 +252,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:8c2713b36d0ab204c84d@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20270502
 DTEND;VALUE=DATE:20270503
 SUMMARY:ELECTION: France – presidential\, 2nd round
@@ -262,7 +262,7 @@ URL:https://odihr.osce.org/odihr/elections
 END:VEVENT
 BEGIN:VEVENT
 UID:e61ddd7df65970025ebd@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20270524
 DTEND;VALUE=DATE:20270528
 SUMMARY:EP plenary session (Strasbourg)
@@ -273,7 +273,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:89454bd8adf22c278b9a@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20270614
 DTEND;VALUE=DATE:20270618
 SUMMARY:EP plenary session (Strasbourg)
@@ -284,7 +284,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:d2968c574227b74b9b6f@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20270705
 DTEND;VALUE=DATE:20270709
 SUMMARY:EP plenary session (Strasbourg)
@@ -295,7 +295,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:57545b0a7316d2292128@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20270913
 DTEND;VALUE=DATE:20270917
 SUMMARY:EP plenary session (Strasbourg)
@@ -306,7 +306,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:6e1a615be3e71ac36ef7@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20271004
 DTEND;VALUE=DATE:20271008
 SUMMARY:EP plenary session (Strasbourg)
@@ -317,7 +317,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:ca51731165e3bde3bb75@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20271018
 DTEND;VALUE=DATE:20271022
 SUMMARY:EP plenary session (Strasbourg)
@@ -328,7 +328,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:fd01c9ae1c27502fe6b2@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20271110
 DTEND;VALUE=DATE:20271112
 SUMMARY:EP plenary session (Brussels)
@@ -339,7 +339,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:8daf84a1312bd7e9ebb1@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20271122
 DTEND;VALUE=DATE:20271126
 SUMMARY:EP plenary session (Strasbourg)
@@ -350,7 +350,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:477de3ba48ab87f439a8@policy-calendar
-DTSTAMP:20261112T165202Z
+DTSTAMP:20261112T165607Z
 DTSTART;VALUE=DATE:20271213
 DTEND;VALUE=DATE:20271217
 SUMMARY:EP plenary session (Strasbourg)
