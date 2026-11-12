@@ -1,0 +1,117 @@
+# =====================================================================
+#  POLICY CALENDAR – SETTINGS
+#  You can edit this file directly on GitHub (pencil icon).
+#  Lines starting with # are comments and are ignored.
+# =====================================================================
+
+calendar_name: "EU water & nature policy"
+
+# How far back to keep past events in the calendar (days)
+keep_past_days: 45
+
+# ---------------------------------------------------------------------
+# YOUR FILES – an event mentioning any of these words is tagged with
+# the file name in square brackets, e.g. [WFD].
+# Matching ignores upper/lower case.
+# ---------------------------------------------------------------------
+files:
+  NRR:
+    - nature restoration
+    - restoration regulation
+    - "2024/1991"
+    - national restoration plan
+  WFD:
+    - water framework directive
+    - "2000/60"
+    - "water framework"
+  Habitats:
+    - habitats directive
+    - "92/43"
+    - birds directive
+    - nature directives
+    - species protection
+  Omnibus VIII:
+    - omnibus viii
+    - environmental omnibus
+    - environmental assessment
+    - speeding up environmental
+    - speeding-up environmental
+    - "2025/0391"
+    - environmental permitting
+  Water Resilience:
+    - water resilience
+  Water Initiative:
+    - water initiative
+
+# Broader topics: events matching only these are tagged [related]
+related_keywords:
+  - freshwater
+  - river
+  - wetland
+  - floodplain
+  - biodiversity
+  - water scarcity
+  - drought
+  - flood
+  - groundwater
+  - natura 2000
+  - simplification
+  - permitting
+
+# ---------------------------------------------------------------------
+# SOURCES – set enabled: false to switch one off
+# ---------------------------------------------------------------------
+sources:
+
+  commission_calendar:
+    enabled: true
+    rss: "https://commission.europa.eu/node/33084/rss_en"
+    # Always include items involving these people, even without keywords
+    always_include_people:
+      - Roswall
+
+  ep_thinktank_events:
+    enabled: true
+    rss: "https://www.europarl.europa.eu/thinktank/en/events/rss"
+
+  ep_plenary:
+    enabled: true
+    # EP Open Data Portal – plenary sitting days
+    api: "https://data.europarl.europa.eu/api/v2/meetings"
+
+  envi_agendas:
+    enabled: true
+    # Monthly eMeeting agenda pages (needs a headless browser)
+    url_template: "https://emeeting.europarl.europa.eu/emeeting/committee/en/agenda/{yyyymm}/ENVI"
+    months_ahead: 2
+
+  council_meetings:
+    enabled: true
+    calendar_url: "https://www.consilium.europa.eu/en/meetings/calendar/"
+    # Council configurations to always show (env = Environment,
+    # agrifish = Agriculture & Fisheries, gac = General Affairs,
+    # compet = Competitiveness)
+    configurations: [env, agrifish, gac, compet]
+
+  coreper1_agendas:
+    enabled: true
+    # Coreper I prepares the Environment Council
+    register_url: "https://www.consilium.europa.eu/en/documents/public-register/oj-coreper-part-1/"
+    max_documents: 15
+
+  have_your_say:
+    enabled: true
+    api: "https://ec.europa.eu/info/law/better-regulation/brpapi/searchInitiatives"
+    search_terms:
+      - water
+      - nature
+      - habitats
+      - biodiversity
+      - environmental assessment
+
+  legislative_train:
+    enabled: true
+    files:
+      WFD revision: "https://www.europarl.europa.eu/legislative-train/theme-sustaining-our-quality-of-life-food-security-water-and-nature/file-targeted-revision-of-the-water-framework-directive"
+      Omnibus VIII: "https://www.europarl.europa.eu/legislative-train/theme-sustaining-our-quality-of-life-food-security-water-and-nature/file-omnibus-viii-environment-speeding-up-environmental-assessments"
+      Water Resilience Strategy: "https://www.europarl.europa.eu/legislative-train/theme-sustaining-our-quality-of-life-food-security-water-and-nature/file-european-water-resilience-strategy"

@@ -1,0 +1,37 @@
+# =====================================================================
+#  MANUAL EVENTS – dates added by hand (elections, key votes, etc.)
+#  To add one, copy a block and change the values.
+#  date format: YYYY-MM-DD   (end is optional, for multi-day events)
+# =====================================================================
+
+- title: "ELECTION: Spain – snap general election"
+  date: 2026-11-29
+  description: "Main candidates: Feijóo (PP), Sánchez (PSOE), Abascal (Vox). Polls: PP first, needs Vox for a majority."
+  url: "https://odihr.osce.org/odihr/elections"
+
+- title: "[Omnibus VIII] EP plenary – vote on speeding up environmental assessments (expected)"
+  date: 2026-11-23
+  end: 2026-11-26
+  description: "Plenary vote on ENVI report (Ytterell) expected during this session; opens trilogues with Council."
+  url: "https://www.europarl.europa.eu/legislative-train/theme-sustaining-our-quality-of-life-food-security-water-and-nature/file-omnibus-viii-environment-speeding-up-environmental-assessments"
+
+- title: "Environment Council"
+  date: 2026-12-11
+  description: "Agenda highlights published about a week before."
+  url: "https://www.consilium.europa.eu/en/meetings/env/2026/12/11/"
+
+- title: "ELECTION: Estonia – parliamentary (Riigikogu)"
+  date: 2027-03-07
+  url: "https://odihr.osce.org/odihr/elections"
+
+- title: "ELECTION: Finland – parliamentary"
+  date: 2027-04-18
+  url: "https://odihr.osce.org/odihr/elections"
+
+- title: "ELECTION: France – presidential, 1st round"
+  date: 2027-04-18
+  url: "https://odihr.osce.org/odihr/elections"
+
+- title: "ELECTION: France – presidential, 2nd round"
+  date: 2027-05-02
+  url: "https://odihr.osce.org/odihr/elections"
