@@ -87,7 +87,9 @@ sources:
     months_ahead: 2
 
   council_meetings:
-    enabled: true
+    # Off: consilium.europa.eu blocks requests from GitHub's servers (HTTP 403).
+    # Council dates go in manual_events.yaml; POLICY BLAST covers agendas.
+    enabled: false
     calendar_url: "https://www.consilium.europa.eu/en/meetings/calendar/"
     # Council configurations to always show (env = Environment,
     # agrifish = Agriculture & Fisheries, gac = General Affairs,
@@ -95,7 +97,8 @@ sources:
     configurations: [env, agrifish, gac, compet]
 
   coreper1_agendas:
-    enabled: true
+    # Off for the same reason (HTTP 403 from GitHub's servers).
+    enabled: false
     # Coreper I prepares the Environment Council
     register_url: "https://www.consilium.europa.eu/en/documents/public-register/oj-coreper-part-1/"
     max_documents: 15

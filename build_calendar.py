@@ -130,6 +130,10 @@ def render(urls: list[str], wait_ms: int = 5000) -> dict[str, tuple[str, list[st
         for url in urls:
             try:
                 resp = page.goto(url, wait_until="domcontentloaded", timeout=60_000)
+                try:  # give script-loaded content time to arrive, but never hang
+                    page.wait_for_load_state("networkidle", timeout=30_000)
+                except Exception:  # noqa: BLE001
+                    pass
                 page.wait_for_timeout(wait_ms)
                 if resp is not None and resp.status >= 400:
                     raise RuntimeError(f"HTTP {resp.status} for {url}")
