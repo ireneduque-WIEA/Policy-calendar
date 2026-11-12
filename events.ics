@@ -1,0 +1,181 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//policy-calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:EU water & nature policy
+X-WR-TIMEZONE:Europe/Brussels
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:eac6163d9530fdb6fca9@policy-calendar
+DTSTAMP:20261112T163102Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:[Omnibus VIII] ENVI committee
+DESCRIPTION:On the agenda:\n- Speeding-up environmental assessments\n- ***I
+  2025/0391(COD) COM(2025)0984 - C10-0337/2025\n- Amendment - PE790.190 - P
+ roposal for a Regulation of the European Parliament and of the Council on 
+ speeding-up environmental assessments\n- Amendment - PE790.193 - Proposal 
+ for a Regulation of the European Parliament and of the Council on speeding
+ -up environmental assessments\n- Draft report / Draft recommendation - PE7
+ 88.874 - Proposal for a Regulation of the European Parliament and of the C
+ ouncil on speeding-up environmental assessments\n- Miscellaneous - EIA_Fin
+ al_VL - Speeding-up environmental assessments - voting list\n- Miscellaneo
+ us - ENVI_EIA-Final_CAs - Speeding-up environmental assessments - compromi
+ se amendments\n- COM - COM(2025)0984 - Proposal for a Regulation of the Eu
+ ropean Parliament and of the Council on speeding-up environmental assessme
+ nts\n\nhttps://emeeting.europarl.europa.eu/emeeting/committee/en/agenda/20
+ 2611/ENVI
+TRANSP:TRANSPARENT
+URL:https://emeeting.europarl.europa.eu/emeeting/committee/en/agenda/202611
+ /ENVI
+END:VEVENT
+BEGIN:VEVENT
+UID:adaaab1930d69f4fd95d@policy-calendar
+DTSTAMP:20261112T163102Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261127
+SUMMARY:[Omnibus VIII] EP plenary – vote on speeding up environmental ass
+ essments (expected)
+DESCRIPTION:Plenary vote on ENVI report (Ytterell) expected during this ses
+ sion\; opens trilogues with Council.\n\nhttps://www.europarl.europa.eu/leg
+ islative-train/theme-sustaining-our-quality-of-life-food-security-water-an
+ d-nature/file-omnibus-viii-environment-speeding-up-environmental-assessmen
+ ts
+TRANSP:TRANSPARENT
+URL:https://www.europarl.europa.eu/legislative-train/theme-sustaining-our-q
+ uality-of-life-food-security-water-and-nature/file-omnibus-viii-environmen
+ t-speeding-up-environmental-assessments
+END:VEVENT
+BEGIN:VEVENT
+UID:ccef05cd32228c601b8e@policy-calendar
+DTSTAMP:20261112T163102Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:[related] Have your say DEADLINE: Introduction of over-the-air upda
+ tes of tachograph software for smart enforcement and simplification purpos
+ es.
+DESCRIPTION:Feedback / consultation closes today.\n\nhttps://ec.europa.eu/i
+ nfo/law/better-regulation/have-your-say/initiatives/19495.0_en
+TRANSP:TRANSPARENT
+URL:https://ec.europa.eu/info/law/better-regulation/have-your-say/initiativ
+ es/19495.0_en
+END:VEVENT
+BEGIN:VEVENT
+UID:43a46c870c1d2da3102c@policy-calendar
+DTSTAMP:20261112T163102Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:[related] Have your say DEADLINE: Road transport smart enforcement 
+ and simplification
+DESCRIPTION:Feedback / consultation closes today.\n\nhttps://ec.europa.eu/i
+ nfo/law/better-regulation/have-your-say/initiatives/19220.0_en
+TRANSP:TRANSPARENT
+URL:https://ec.europa.eu/info/law/better-regulation/have-your-say/initiativ
+ es/19220.0_en
+END:VEVENT
+BEGIN:VEVENT
+UID:c9a93ae4ba25aba28231@policy-calendar
+DTSTAMP:20261112T163102Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:[related] Have your say DEADLINE: Simplification of reporting requi
+ rements under Regulation (EC) No 1370/2007 on public transport by rail and
+  by road
+DESCRIPTION:Feedback / consultation closes today.\n\nhttps://ec.europa.eu/i
+ nfo/law/better-regulation/have-your-say/initiatives/19496.0_en
+TRANSP:TRANSPARENT
+URL:https://ec.europa.eu/info/law/better-regulation/have-your-say/initiativ
+ es/19496.0_en
+END:VEVENT
+BEGIN:VEVENT
+UID:d87495066807acb82fd7@policy-calendar
+DTSTAMP:20261112T163102Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:[related] Have your say DEADLINE: Smart enforcement and simplificat
+ ion in road transport - omnibus (Directive)
+DESCRIPTION:Feedback / consultation closes today.\n\nhttps://ec.europa.eu/i
+ nfo/law/better-regulation/have-your-say/initiatives/19612.0_en
+TRANSP:TRANSPARENT
+URL:https://ec.europa.eu/info/law/better-regulation/have-your-say/initiativ
+ es/19612.0_en
+END:VEVENT
+BEGIN:VEVENT
+UID:66759d3c71f4691ecba8@policy-calendar
+DTSTAMP:20261112T163102Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:[related] Have your say DEADLINE: Smart enforcement and simplificat
+ ion in road transport - omnibus (Regulation)
+DESCRIPTION:Feedback / consultation closes today.\n\nhttps://ec.europa.eu/i
+ nfo/law/better-regulation/have-your-say/initiatives/19613.0_en
+TRANSP:TRANSPARENT
+URL:https://ec.europa.eu/info/law/better-regulation/have-your-say/initiativ
+ es/19613.0_en
+END:VEVENT
+BEGIN:VEVENT
+UID:19bcedd9e181d105e373@policy-calendar
+DTSTAMP:20261112T163102Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:ELECTION: Spain – snap general election
+DESCRIPTION:Main candidates: Feijóo (PP)\, Sánchez (PSOE)\, Abascal (Vox)
+ . Polls: PP first\, needs Vox for a majority.\n\nhttps://odihr.osce.org/od
+ ihr/elections
+TRANSP:TRANSPARENT
+URL:https://odihr.osce.org/odihr/elections
+END:VEVENT
+BEGIN:VEVENT
+UID:071de4fc36df2d3ee335@policy-calendar
+DTSTAMP:20261112T163102Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Environment Council
+DESCRIPTION:Agenda highlights published about a week before.\n\nhttps://www
+ .consilium.europa.eu/en/meetings/env/2026/12/11/
+TRANSP:TRANSPARENT
+URL:https://www.consilium.europa.eu/en/meetings/env/2026/12/11/
+END:VEVENT
+BEGIN:VEVENT
+UID:1ca263fb9d47e72316cc@policy-calendar
+DTSTAMP:20261112T163102Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:ELECTION: Estonia – parliamentary (Riigikogu)
+DESCRIPTION:https://odihr.osce.org/odihr/elections
+TRANSP:TRANSPARENT
+URL:https://odihr.osce.org/odihr/elections
+END:VEVENT
+BEGIN:VEVENT
+UID:313ea237780cf7bca3eb@policy-calendar
+DTSTAMP:20261112T163102Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:ELECTION: Finland – parliamentary
+DESCRIPTION:https://odihr.osce.org/odihr/elections
+TRANSP:TRANSPARENT
+URL:https://odihr.osce.org/odihr/elections
+END:VEVENT
+BEGIN:VEVENT
+UID:4f28764d4baf1e2d9dd0@policy-calendar
+DTSTAMP:20261112T163102Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:ELECTION: France – presidential\, 1st round
+DESCRIPTION:https://odihr.osce.org/odihr/elections
+TRANSP:TRANSPARENT
+URL:https://odihr.osce.org/odihr/elections
+END:VEVENT
+BEGIN:VEVENT
+UID:8c2713b36d0ab204c84d@policy-calendar
+DTSTAMP:20261112T163102Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:ELECTION: France – presidential\, 2nd round
+DESCRIPTION:https://odihr.osce.org/odihr/elections
+TRANSP:TRANSPARENT
+URL:https://odihr.osce.org/odihr/elections
+END:VEVENT
+END:VCALENDAR
