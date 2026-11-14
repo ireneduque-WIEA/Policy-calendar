@@ -1,5 +1,168 @@
 {
- "commission_calendar": [],
+ "commission_calendar": [
+  {
+   "uid": "1879ea2064612e4eed2e",
+   "source": "commission_calendar",
+   "title": "EC: 2026-11-20 - Commissioner Roswall receives trainees from the Swedish Regional Offices in Brussels",
+   "start": "2026-11-20",
+   "end": "2026-11-20",
+   "url": "https://commission.europa.eu/calendar/commissioner-roswall-receives-trainees-swedish-regional-offices-brussels_en",
+   "description": "Brussels, Belgium"
+  },
+  {
+   "uid": "53a8aedccc5764edc144",
+   "source": "commission_calendar",
+   "title": "EC: 2026-11-19 - Commissioner Roswall receives Ms Yuliya Zhuk, Representative of the The European Federation of Geologists (EFG)",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "url": "https://commission.europa.eu/calendar/commissioner-roswall-receives-ms-yuliya-zhuk-representative-european-federation-geologists-efg_en",
+   "description": "Brussels, Belgium"
+  },
+  {
+   "uid": "99935f3d55628f7f09c7",
+   "source": "commission_calendar",
+   "title": "EC: 2026-11-19 - Commissioner Roswall participats in the event ‘BusinessEurope - CEOs Dialogue’ hosted by Commissioner Dombrovskis",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "url": "https://commission.europa.eu/calendar/commissioner-roswall-participats-event-businesseurope-ceos-dialogue-hosted-commissioner-dombrovskis_en",
+   "description": "Brussels, Belgium"
+  },
+  {
+   "uid": "0e58379d71aef65e40ab",
+   "source": "commission_calendar",
+   "title": "EC: 2026-11-19 - Commissioner Roswall receives Mr Eduardo Cuoco, Director of IFOAM Organics Europe and Mr Peter Defranceschi, Head of ICLEI Brussels Office for ICLEI CityFood",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "url": "https://commission.europa.eu/calendar/commissioner-roswall-receives-mr-eduardo-cuoco-director-ifoam-organics-europe-and-mr-peter_en",
+   "description": "Brussels, Belgium"
+  },
+  {
+   "uid": "39702dde68a0a298fc51",
+   "source": "commission_calendar",
+   "title": "[Habitats] EC: 2026-11-19 - Commissioner Roswall gives a keynote address at the EPP Group Hearing, ‘From Stress Test to Solutions – Practical Lessons for the Birds and Habitats Directives’ LS EP",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "url": "https://commission.europa.eu/calendar/commissioner-roswall-gives-keynote-address-epp-group-hearing-stress-test-solutions-practical-lessons_en",
+   "description": "Brussels, Belgium"
+  },
+  {
+   "uid": "6af0fc2bf1a5c83e2237",
+   "source": "commission_calendar",
+   "title": "EC: 2026-11-19 - Commissioner Roswall gives an address at the 2nd European Bioeconomy Conference",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "url": "https://commission.europa.eu/calendar/commissioner-roswall-gives-address-2nd-european-bioeconomy-conference_en",
+   "description": "Brussels, Belgium"
+  },
+  {
+   "uid": "59b887279fdfd66af7d6",
+   "source": "commission_calendar",
+   "title": "EC: 2026-11-18 - Commissioner Roswall receives a delegation from EUMICON",
+   "start": "2026-11-18",
+   "end": "2026-11-18",
+   "url": "https://commission.europa.eu/calendar/commissioner-roswall-receives-delegation-eumicon_en",
+   "description": "Brussels, Belgium"
+  },
+  {
+   "uid": "979afc27f8e199d3e39c",
+   "source": "commission_calendar",
+   "title": "EC: 2026-11-18 - Commissioner Roswall participates in a roundtable event, ‘12th European Congress of Young Farmers’ hosted by the EPP at the European Parliament",
+   "start": "2026-11-18",
+   "end": "2026-11-18",
+   "url": "https://commission.europa.eu/calendar/commissioner-roswall-participates-roundtable-event-12th-european-congress-young-farmers-hosted-epp_en",
+   "description": "Brussels, Belgium"
+  },
+  {
+   "uid": "946627e69f14550e7eae",
+   "source": "commission_calendar",
+   "title": "EC: 2026-11-18 - Commissioner Roswall receives Mr Jan-Olof Jacke, Director General at Confederation of Swedish Enterprise and Ms Charlotte Andersdotter, International Director, Head of the Brussels Office for the Confederation of Swedish Enterprise",
+   "start": "2026-11-18",
+   "end": "2026-11-18",
+   "url": "https://commission.europa.eu/calendar/commissioner-roswall-receives-mr-jan-olof-jacke-director-general-confederation-swedish-enterprise_en",
+   "description": "Brussels, Belgium"
+  },
+  {
+   "uid": "173ea4a11cbfc986be1f",
+   "source": "commission_calendar",
+   "title": "EC: 2026-11-18 - Commissioner Roswall receives Mr Christopher Sinckler, Senior Minister and Minister of Foreign Affairs and Foreign Trade of Barbados",
+   "start": "2026-11-18",
+   "end": "2026-11-18",
+   "url": "https://commission.europa.eu/calendar/commissioner-roswall-receives-mr-christopher-sinckler-senior-minister-and-minister-foreign-affairs_en",
+   "description": "Brussels, Belgium"
+  },
+  {
+   "uid": "f612a4e592e8fae674f0",
+   "source": "commission_calendar",
+   "title": "EC: 2026-11-17 - Commissioner Roswall participates in the event, ‘Building the Bioeconomy Together - Unlocking Europe's Competitive, Resilient and Fossil-Free Resources’",
+   "start": "2026-11-17",
+   "end": "2026-11-17",
+   "url": "https://commission.europa.eu/calendar/commissioner-roswall-participates-event-building-bioeconomy-together-unlocking-europes-competitive_en",
+   "description": "Antalya, Türkiye"
+  },
+  {
+   "uid": "e18f0c9c193dbb46dd8d",
+   "source": "commission_calendar",
+   "title": "EC: 2026-11-17 - Commissioner Roswall meets with Ms Grace FU Hai Yien, Minister for Sustainability and the Environment and Minister-in-charge of Trade Relations for Singapore",
+   "start": "2026-11-17",
+   "end": "2026-11-17",
+   "url": "https://commission.europa.eu/calendar/commissioner-roswall-meets-ms-grace-fu-hai-yien-minister-sustainability-and-environment-and-minister_en",
+   "description": "Antalya, Türkiye"
+  },
+  {
+   "uid": "f8cc92011961603c3e76",
+   "source": "commission_calendar",
+   "title": "EC: 2026-11-17 - Commissioner Roswall meets with Mr Kim Sungwhan, Minister of Climate, Energy and Environment for Korea",
+   "start": "2026-11-17",
+   "end": "2026-11-17",
+   "url": "https://commission.europa.eu/calendar/commissioner-roswall-meets-mr-kim-sungwhan-minister-climate-energy-and-environment-korea_en",
+   "description": "Antalya, Türkiye"
+  },
+  {
+   "uid": "93e135d3b623d9902aff",
+   "source": "commission_calendar",
+   "title": "[related] EC: 2026-11-17 - Commissioner Roswall gives closing remarks at the event, ‘One Nature, Three COPs: Financing Nature Solutions for Climate, Biodiversity, and Land’",
+   "start": "2026-11-17",
+   "end": "2026-11-17",
+   "url": "https://commission.europa.eu/calendar/commissioner-roswall-gives-closing-remarks-event-one-nature-three-cops-financing-nature-solutions_en",
+   "description": "Antalya, Türkiye"
+  },
+  {
+   "uid": "3ed80c8fab4bcb62da4f",
+   "source": "commission_calendar",
+   "title": "[Water Resilience] EC: 2026-11-17 - Commissioner Roswall gives an opening address at the event, ‘Mainstreaming Water across the Climate agenda: From the EU Water Resilience strategy to Global delivery’",
+   "start": "2026-11-17",
+   "end": "2026-11-17",
+   "url": "https://commission.europa.eu/calendar/commissioner-roswall-gives-opening-address-event-mainstreaming-water-across-climate-agenda-eu-water_en",
+   "description": "Antalya, Türkiye"
+  },
+  {
+   "uid": "3beb31b9b4a2e106ba22",
+   "source": "commission_calendar",
+   "title": "EC: 2026-11-16 - Commissioner Roswall meets with Ms Francisca Toledo, Minister for the Environment of Chile",
+   "start": "2026-11-16",
+   "end": "2026-11-16",
+   "url": "https://commission.europa.eu/calendar/commissioner-roswall-meets-ms-francisca-toledo-minister-environment-chile-0_en",
+   "description": "Antalya, Türkiye"
+  },
+  {
+   "uid": "5678ac468729e9d8f913",
+   "source": "commission_calendar",
+   "title": "EC: 2026-11-16 - Commissioner Roswall meets with Mr Steven Victor, Minister of Agriculture, Fisheries and Environment for Palau and Chair of the Alliance of Small Island States (AOSIS)",
+   "start": "2026-11-16",
+   "end": "2026-11-16",
+   "url": "https://commission.europa.eu/calendar/commissioner-roswall-meets-mr-steven-victor-minister-agriculture-fisheries-and-environment-palau-and_en",
+   "description": "Antalya, Türkiye"
+  },
+  {
+   "uid": "742d8a55b277130d58e9",
+   "source": "commission_calendar",
+   "title": "EC: 2026-11-16 - Commissioner Roswall gives a speech at the event, ‘Together to find a common ground: High-Level exchange on the Final Phase of the Plastics Treaty Negotiations’",
+   "start": "2026-11-16",
+   "end": "2026-11-16",
+   "url": "https://commission.europa.eu/calendar/commissioner-roswall-gives-speech-event-together-find-common-ground-high-level-exchange-final-phase_en",
+   "description": "Antalya, Türkiye"
+  }
+ ],
  "ep_thinktank_events": [],
  "envi_agendas": [
   {
