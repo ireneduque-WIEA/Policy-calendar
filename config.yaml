@@ -67,8 +67,6 @@ sources:
     enabled: true
     rss: "https://commission.europa.eu/node/33084/rss_en"
     # Always include items involving these people, even without keywords
-    always_include_people:
-      - Roswall
 
   ep_thinktank_events:
     enabled: true
