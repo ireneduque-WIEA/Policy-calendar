@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:0af13c10cc421766b069@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Legislative Train – Last update: WFD revision
@@ -24,7 +24,7 @@ URL:https://www.europarl.europa.eu/legislative-train/theme-sustaining-our-q
 END:VEVENT
 BEGIN:VEVENT
 UID:6726f014972c02a1835a@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Legislative Train – Last update: Water Resilience Strategy
@@ -39,7 +39,7 @@ URL:https://www.europarl.europa.eu/legislative-train/theme-sustaining-our-q
 END:VEVENT
 BEGIN:VEVENT
 UID:32b90e8011840d215606@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:Legislative Train – Last update: Omnibus VIII
@@ -54,7 +54,7 @@ URL:https://www.europarl.europa.eu/legislative-train/theme-sustaining-our-q
 END:VEVENT
 BEGIN:VEVENT
 UID:eac6163d9530fdb6fca9@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:[Omnibus VIII] ENVI committee
@@ -78,7 +78,7 @@ URL:https://emeeting.europarl.europa.eu/emeeting/committee/en/agenda/202611
 END:VEVENT
 BEGIN:VEVENT
 UID:2921ba9ffe2251dbb8ff@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:[related] EP event: Workshops - The Digital Fairness Act - 09-11-20
@@ -98,11 +98,11 @@ URL:https://www.europarl.europa.eu/thinktank/en/events/details/the-digital-
  fairness-act/20261029WKS07320
 END:VEVENT
 BEGIN:VEVENT
-UID:141760ec634b29e8e897@policy-calendar
-DTSTAMP:20261116T053727Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
-SUMMARY:[Water Resilience] EP event: Workshops - New knowledge and Innovati
+UID:41bf170f38b3bc418c6b@policy-calendar
+DTSTAMP:20261117T050445Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:[Water Resilience] EP event: Workshops - New Knowledge and Innovati
  on Community in the field of water\, marine and maritime sectors-EIT Water
   - 09-12-2026 - Scientific foresight
 DESCRIPTION:Europe faces growing water stress\, droughts\, floods and degra
@@ -121,181 +121,8 @@ URL:https://www.europarl.europa.eu/thinktank/en/events/details/new-knowledg
  e-and-innovation-community-i/20261110WKS07321
 END:VEVENT
 BEGIN:VEVENT
-UID:e18f0c9c193dbb46dd8d@policy-calendar
-DTSTAMP:20261116T053727Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:EC: 2026-11-17 - Commissioner Roswall meets with Ms Grace FU Hai Yi
- en\, Minister for Sustainability and the Environment and Minister-in-charg
- e of Trade Relations for Singapore
-DESCRIPTION:Antalya\, Türkiye\n\nhttps://commission.europa.eu/calendar/com
- missioner-roswall-meets-ms-grace-fu-hai-yien-minister-sustainability-and-e
- nvironment-and-minister_en
-TRANSP:TRANSPARENT
-URL:https://commission.europa.eu/calendar/commissioner-roswall-meets-ms-gra
- ce-fu-hai-yien-minister-sustainability-and-environment-and-minister_en
-END:VEVENT
-BEGIN:VEVENT
-UID:f612a4e592e8fae674f0@policy-calendar
-DTSTAMP:20261116T053727Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:EC: 2026-11-17 - Commissioner Roswall participates in the event\, 
- ‘Building the Bioeconomy Together - Unlocking Europe's Competitive\, Res
- ilient and Fossil-Free Resources’
-DESCRIPTION:Antalya\, Türkiye\n\nhttps://commission.europa.eu/calendar/com
- missioner-roswall-participates-event-building-bioeconomy-together-unlockin
- g-europes-competitive_en
-TRANSP:TRANSPARENT
-URL:https://commission.europa.eu/calendar/commissioner-roswall-participates
- -event-building-bioeconomy-together-unlocking-europes-competitive_en
-END:VEVENT
-BEGIN:VEVENT
-UID:979afc27f8e199d3e39c@policy-calendar
-DTSTAMP:20261116T053727Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:EC: 2026-11-18 - Commissioner Roswall participates in a roundtable 
- event\, ‘12th European Congress of Young Farmers’ hosted by the EPP at
-  the European Parliament
-DESCRIPTION:Brussels\, Belgium\n\nhttps://commission.europa.eu/calendar/com
- missioner-roswall-participates-roundtable-event-12th-european-congress-you
- ng-farmers-hosted-epp_en
-TRANSP:TRANSPARENT
-URL:https://commission.europa.eu/calendar/commissioner-roswall-participates
- -roundtable-event-12th-european-congress-young-farmers-hosted-epp_en
-END:VEVENT
-BEGIN:VEVENT
-UID:173ea4a11cbfc986be1f@policy-calendar
-DTSTAMP:20261116T053727Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:EC: 2026-11-18 - Commissioner Roswall receives Mr Christopher Sinck
- ler\, Senior Minister and Minister of Foreign Affairs and Foreign Trade of
-  Barbados
-DESCRIPTION:Brussels\, Belgium\n\nhttps://commission.europa.eu/calendar/com
- missioner-roswall-receives-mr-christopher-sinckler-senior-minister-and-min
- ister-foreign-affairs_en
-TRANSP:TRANSPARENT
-URL:https://commission.europa.eu/calendar/commissioner-roswall-receives-mr-
- christopher-sinckler-senior-minister-and-minister-foreign-affairs_en
-END:VEVENT
-BEGIN:VEVENT
-UID:946627e69f14550e7eae@policy-calendar
-DTSTAMP:20261116T053727Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:EC: 2026-11-18 - Commissioner Roswall receives Mr Jan-Olof Jacke\, 
- Director General at Confederation of Swedish Enterprise and Ms Charlotte A
- ndersdotter\, International Director\, Head of the Brussels Office for the
-  Confederation of Swedish Enterprise
-DESCRIPTION:Brussels\, Belgium\n\nhttps://commission.europa.eu/calendar/com
- missioner-roswall-receives-mr-jan-olof-jacke-director-general-confederatio
- n-swedish-enterprise_en
-TRANSP:TRANSPARENT
-URL:https://commission.europa.eu/calendar/commissioner-roswall-receives-mr-
- jan-olof-jacke-director-general-confederation-swedish-enterprise_en
-END:VEVENT
-BEGIN:VEVENT
-UID:59b887279fdfd66af7d6@policy-calendar
-DTSTAMP:20261116T053727Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:EC: 2026-11-18 - Commissioner Roswall receives a delegation from EU
- MICON
-DESCRIPTION:Brussels\, Belgium\n\nhttps://commission.europa.eu/calendar/com
- missioner-roswall-receives-delegation-eumicon_en
-TRANSP:TRANSPARENT
-URL:https://commission.europa.eu/calendar/commissioner-roswall-receives-del
- egation-eumicon_en
-END:VEVENT
-BEGIN:VEVENT
-UID:6af0fc2bf1a5c83e2237@policy-calendar
-DTSTAMP:20261116T053727Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:EC: 2026-11-19 - Commissioner Roswall gives an address at the 2nd E
- uropean Bioeconomy Conference
-DESCRIPTION:Brussels\, Belgium\n\nhttps://commission.europa.eu/calendar/com
- missioner-roswall-gives-address-2nd-european-bioeconomy-conference_en
-TRANSP:TRANSPARENT
-URL:https://commission.europa.eu/calendar/commissioner-roswall-gives-addres
- s-2nd-european-bioeconomy-conference_en
-END:VEVENT
-BEGIN:VEVENT
-UID:99935f3d55628f7f09c7@policy-calendar
-DTSTAMP:20261116T053727Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:EC: 2026-11-19 - Commissioner Roswall participats in the event ‘B
- usinessEurope - CEOs Dialogue’ hosted by Commissioner Dombrovskis
-DESCRIPTION:Brussels\, Belgium\n\nhttps://commission.europa.eu/calendar/com
- missioner-roswall-participats-event-businesseurope-ceos-dialogue-hosted-co
- mmissioner-dombrovskis_en
-TRANSP:TRANSPARENT
-URL:https://commission.europa.eu/calendar/commissioner-roswall-participats-
- event-businesseurope-ceos-dialogue-hosted-commissioner-dombrovskis_en
-END:VEVENT
-BEGIN:VEVENT
-UID:0e58379d71aef65e40ab@policy-calendar
-DTSTAMP:20261116T053727Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:EC: 2026-11-19 - Commissioner Roswall receives Mr Eduardo Cuoco\, D
- irector of IFOAM Organics Europe and Mr Peter Defranceschi\, Head of ICLEI
-  Brussels Office for ICLEI CityFood
-DESCRIPTION:Brussels\, Belgium\n\nhttps://commission.europa.eu/calendar/com
- missioner-roswall-receives-mr-eduardo-cuoco-director-ifoam-organics-europe
- -and-mr-peter_en
-TRANSP:TRANSPARENT
-URL:https://commission.europa.eu/calendar/commissioner-roswall-receives-mr-
- eduardo-cuoco-director-ifoam-organics-europe-and-mr-peter_en
-END:VEVENT
-BEGIN:VEVENT
-UID:53a8aedccc5764edc144@policy-calendar
-DTSTAMP:20261116T053727Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:EC: 2026-11-19 - Commissioner Roswall receives Ms Yuliya Zhuk\, Rep
- resentative of the The European Federation of Geologists (EFG)
-DESCRIPTION:Brussels\, Belgium\n\nhttps://commission.europa.eu/calendar/com
- missioner-roswall-receives-ms-yuliya-zhuk-representative-european-federati
- on-geologists-efg_en
-TRANSP:TRANSPARENT
-URL:https://commission.europa.eu/calendar/commissioner-roswall-receives-ms-
- yuliya-zhuk-representative-european-federation-geologists-efg_en
-END:VEVENT
-BEGIN:VEVENT
-UID:39702dde68a0a298fc51@policy-calendar
-DTSTAMP:20261116T053727Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:[Habitats] EC: 2026-11-19 - Commissioner Roswall gives a keynote ad
- dress at the EPP Group Hearing\, ‘From Stress Test to Solutions – Prac
- tical Lessons for the Birds and Habitats Directives’ LS EP
-DESCRIPTION:Brussels\, Belgium\n\nhttps://commission.europa.eu/calendar/com
- missioner-roswall-gives-keynote-address-epp-group-hearing-stress-test-solu
- tions-practical-lessons_en
-TRANSP:TRANSPARENT
-URL:https://commission.europa.eu/calendar/commissioner-roswall-gives-keynot
- e-address-epp-group-hearing-stress-test-solutions-practical-lessons_en
-END:VEVENT
-BEGIN:VEVENT
-UID:1879ea2064612e4eed2e@policy-calendar
-DTSTAMP:20261116T053727Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:EC: 2026-11-20 - Commissioner Roswall receives trainees from the Sw
- edish Regional Offices in Brussels
-DESCRIPTION:Brussels\, Belgium\n\nhttps://commission.europa.eu/calendar/com
- missioner-roswall-receives-trainees-swedish-regional-offices-brussels_en
-TRANSP:TRANSPARENT
-URL:https://commission.europa.eu/calendar/commissioner-roswall-receives-tra
- inees-swedish-regional-offices-brussels_en
-END:VEVENT
-BEGIN:VEVENT
 UID:ff6e679397e02d48f4d8@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261127
 SUMMARY:[Omnibus VIII] EP plenary session (Strasbourg)
@@ -307,7 +134,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:ccef05cd32228c601b8e@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:[related] Have your say DEADLINE: Introduction of over-the-air upda
@@ -321,7 +148,7 @@ URL:https://ec.europa.eu/info/law/better-regulation/have-your-say/initiativ
 END:VEVENT
 BEGIN:VEVENT
 UID:43a46c870c1d2da3102c@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:[related] Have your say DEADLINE: Road transport smart enforcement 
@@ -334,7 +161,7 @@ URL:https://ec.europa.eu/info/law/better-regulation/have-your-say/initiativ
 END:VEVENT
 BEGIN:VEVENT
 UID:c9a93ae4ba25aba28231@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:[related] Have your say DEADLINE: Simplification of reporting requi
@@ -348,7 +175,7 @@ URL:https://ec.europa.eu/info/law/better-regulation/have-your-say/initiativ
 END:VEVENT
 BEGIN:VEVENT
 UID:d87495066807acb82fd7@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:[related] Have your say DEADLINE: Smart enforcement and simplificat
@@ -361,7 +188,7 @@ URL:https://ec.europa.eu/info/law/better-regulation/have-your-say/initiativ
 END:VEVENT
 BEGIN:VEVENT
 UID:66759d3c71f4691ecba8@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:[related] Have your say DEADLINE: Smart enforcement and simplificat
@@ -374,7 +201,7 @@ URL:https://ec.europa.eu/info/law/better-regulation/have-your-say/initiativ
 END:VEVENT
 BEGIN:VEVENT
 UID:19bcedd9e181d105e373@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:ELECTION: Spain – snap general election
@@ -386,7 +213,7 @@ URL:https://odihr.osce.org/odihr/elections
 END:VEVENT
 BEGIN:VEVENT
 UID:071de4fc36df2d3ee335@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Environment Council
@@ -397,7 +224,7 @@ URL:https://www.consilium.europa.eu/en/meetings/env/2026/12/11/
 END:VEVENT
 BEGIN:VEVENT
 UID:2bcd0fe65655d4128c8d@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261218
 SUMMARY:EP plenary session (Strasbourg)
@@ -408,7 +235,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:0aac62d60b230a4b7708@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270122
 SUMMARY:EP plenary session (Strasbourg)
@@ -419,7 +246,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:86221eff7856b35bf904@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270219
 SUMMARY:EP plenary session (Strasbourg)
@@ -430,7 +257,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:1ca263fb9d47e72316cc@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:ELECTION: Estonia – parliamentary (Riigikogu)
@@ -440,7 +267,7 @@ URL:https://odihr.osce.org/odihr/elections
 END:VEVENT
 BEGIN:VEVENT
 UID:fdcc072c72e10cd4e7d4@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20270308
 DTEND;VALUE=DATE:20270312
 SUMMARY:EP plenary session (Strasbourg)
@@ -451,7 +278,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:9d184d5a062870178615@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20270412
 DTEND;VALUE=DATE:20270416
 SUMMARY:EP plenary session (Strasbourg)
@@ -462,7 +289,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:313ea237780cf7bca3eb@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20270418
 DTEND;VALUE=DATE:20270419
 SUMMARY:ELECTION: Finland – parliamentary
@@ -472,7 +299,7 @@ URL:https://odihr.osce.org/odihr/elections
 END:VEVENT
 BEGIN:VEVENT
 UID:4f28764d4baf1e2d9dd0@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20270418
 DTEND;VALUE=DATE:20270419
 SUMMARY:ELECTION: France – presidential\, 1st round
@@ -482,7 +309,7 @@ URL:https://odihr.osce.org/odihr/elections
 END:VEVENT
 BEGIN:VEVENT
 UID:205f733c8b84ffad2bb9@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20270428
 DTEND;VALUE=DATE:20270430
 SUMMARY:EP plenary session (Brussels)
@@ -493,7 +320,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:8c2713b36d0ab204c84d@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20270502
 DTEND;VALUE=DATE:20270503
 SUMMARY:ELECTION: France – presidential\, 2nd round
@@ -503,7 +330,7 @@ URL:https://odihr.osce.org/odihr/elections
 END:VEVENT
 BEGIN:VEVENT
 UID:e61ddd7df65970025ebd@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20270524
 DTEND;VALUE=DATE:20270528
 SUMMARY:EP plenary session (Strasbourg)
@@ -514,7 +341,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:89454bd8adf22c278b9a@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20270614
 DTEND;VALUE=DATE:20270618
 SUMMARY:EP plenary session (Strasbourg)
@@ -525,7 +352,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:d2968c574227b74b9b6f@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20270705
 DTEND;VALUE=DATE:20270709
 SUMMARY:EP plenary session (Strasbourg)
@@ -536,7 +363,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:57545b0a7316d2292128@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20270913
 DTEND;VALUE=DATE:20270917
 SUMMARY:EP plenary session (Strasbourg)
@@ -547,7 +374,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:6e1a615be3e71ac36ef7@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20271004
 DTEND;VALUE=DATE:20271008
 SUMMARY:EP plenary session (Strasbourg)
@@ -558,7 +385,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:ca51731165e3bde3bb75@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20271018
 DTEND;VALUE=DATE:20271022
 SUMMARY:EP plenary session (Strasbourg)
@@ -569,7 +396,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:fd01c9ae1c27502fe6b2@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20271110
 DTEND;VALUE=DATE:20271112
 SUMMARY:EP plenary session (Brussels)
@@ -580,7 +407,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:8daf84a1312bd7e9ebb1@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20271122
 DTEND;VALUE=DATE:20271126
 SUMMARY:EP plenary session (Strasbourg)
@@ -591,7 +418,7 @@ URL:https://www.europarl.europa.eu/plenary/en/home.html
 END:VEVENT
 BEGIN:VEVENT
 UID:477de3ba48ab87f439a8@policy-calendar
-DTSTAMP:20261116T053727Z
+DTSTAMP:20261117T050445Z
 DTSTART;VALUE=DATE:20271213
 DTEND;VALUE=DATE:20271217
 SUMMARY:EP plenary session (Strasbourg)
