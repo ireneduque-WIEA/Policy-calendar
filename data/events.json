@@ -1,5 +1,15 @@
 {
- "commission_calendar": [],
+ "commission_calendar": [
+  {
+   "uid": "0324a23e5524389183ab",
+   "source": "commission_calendar",
+   "title": "[related] EC: 2026-11-26 - Commissioner Roswall visits Natura 2000, LIFE, and nature management projects",
+   "start": "2026-11-26",
+   "end": "2026-11-26",
+   "url": "https://commission.europa.eu/calendar/commissioner-roswall-visits-natura-2000-life-and-nature-management-projects_en",
+   "description": "Belmontas-Pūčkoriai region, Lithuania"
+  }
+ ],
  "ep_thinktank_events": [
   {
    "uid": "bf36e2ac5347d7c1299c",
