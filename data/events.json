@@ -1,17 +1,26 @@
 {
  "commission_calendar": [],
- "ep_thinktank_events": [],
- "envi_agendas": [
+ "ep_thinktank_events": [
   {
-   "uid": "eac6163d9530fdb6fca9",
-   "source": "envi_agendas",
-   "title": "[Omnibus VIII] ENVI committee",
-   "start": "2026-11-04",
-   "end": "2026-11-04",
-   "url": "https://emeeting.europarl.europa.eu/emeeting/committee/en/agenda/202611/ENVI",
-   "description": "On the agenda:\n- Speeding-up environmental assessments\n- ***I 2025/0391(COD) COM(2025)0984 - C10-0337/2025\n- Amendment - PE790.190 - Proposal for a Regulation of the European Parliament and of the Council on speeding-up environmental assessments\n- Amendment - PE790.193 - Proposal for a Regulation of the European Parliament and of the Council on speeding-up environmental assessments\n- Draft report / Draft recommendation - PE788.874 - Proposal for a Regulation of the European Parliament and of the Council on speeding-up environmental assessments\n- Miscellaneous - EIA_Final_VL - Speeding-up environmental assessments - voting list\n- Miscellaneous - ENVI_EIA-Final_CAs - Speeding-up environmental assessments - compromise amendments\n- COM - COM(2025)0984 - Proposal for a Regulation of the European Parliament and of the Council on speeding-up environmental assessments"
+   "uid": "bf36e2ac5347d7c1299c",
+   "source": "ep_thinktank_events",
+   "title": "[Water Resilience] EP event: Workshops - New Knowledge and Innovation Community in the field of water, marine and maritime sectors-EIT Water - 09-12-2026 - Scientific foresight",
+   "start": "2026-11-17",
+   "end": "2026-11-17",
+   "url": "https://www.europarl.europa.eu/thinktank/en/events/details/new-knowledge-and-innovation-community-i/20261110WKS07321",
+   "description": "Europe faces growing water stress, droughts, floods and degradation of aquatic ecosystems, made worse by regional disparities and climate change. Research too often fails to become practical solutions and skilled jobs, because efforts are fragmented across regions and sectors. The launch of EIT Water, the new Knowledge and Innovation Community (KIC) on water, marine and maritime sectors, together with the EU Water Resilience Strategy, offers an opportunity to bring innovation, education and entrepreneurship together and speed up Europe’s transition to water and blue resilience. This STOA event"
+  },
+  {
+   "uid": "2921ba9ffe2251dbb8ff",
+   "source": "ep_thinktank_events",
+   "title": "[related] EP event: Workshops - The Digital Fairness Act - 09-11-2026 - Internal Market and Consumer Protection",
+   "start": "2026-11-09",
+   "end": "2026-11-09",
+   "url": "https://www.europarl.europa.eu/thinktank/en/events/details/the-digital-fairness-act/20261029WKS07320",
+   "description": "How to effectively protect consumers online while to ensure a consistent interplay with existing legislation? On 9 November 2026, a workshop entitled “The Digital Fairness Act: How to effectively protect consumers online while ensuring a consistent interplay with existing legislation?” took place from 15h40 to 17h10 during the IMCO Committee meeting. The workshop focused on the main aspects of the upcoming proposal and its interplay with existing legislation, highlighting possible gaps and overlaps. Experts discussed how the Digital Fairness Act (DFA) can provide greater consumer protection in"
   }
  ],
+ "envi_agendas": [],
  "have_your_say": [
   {
    "uid": "43a46c870c1d2da3102c",
