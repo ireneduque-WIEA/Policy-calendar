@@ -1,6 +1,16 @@
 {
  "commission_calendar": [],
- "ep_thinktank_events": [],
+ "ep_thinktank_events": [
+  {
+   "uid": "b15088ea61d3fb2b230f",
+   "source": "ep_thinktank_events",
+   "title": "[Water Resilience, Water Initiative] EP event: Workshops - New Knowledge and Innovation Community in the field of water, marine and maritime sectors-EIT Water - 09-12-2026 - Scientific foresight",
+   "start": "2026-11-24",
+   "end": "2026-11-24",
+   "url": "https://www.europarl.europa.eu/thinktank/en/events/details/new-knowledge-and-innovation-community-i/20261110WKS07321",
+   "description": "Europe faces growing water stress, droughts, floods and degradation of aquatic ecosystems, made worse by regional disparities and climate change. Research too often fails to become practical solutions and skilled jobs, because efforts are fragmented across regions and sectors. The launch of EIT Water, the new Knowledge and Innovation Community (KIC) on water, marine and maritime sectors, together with the EU Water Resilience Strategy, offers an opportunity to bring innovation, education and entrepreneurship together and speed up Europe’s transition to water and blue resilience. This STOA event"
+  }
+ ],
  "envi_agendas": [
   {
    "uid": "eac6163d9530fdb6fca9",
@@ -12,53 +22,7 @@
    "description": "On the agenda:\n- Speeding-up environmental assessments\n- ***I 2025/0391(COD) COM(2025)0984 - C10-0337/2025\n- Amendment - PE790.190 - Proposal for a Regulation of the European Parliament and of the Council on speeding-up environmental assessments\n- Amendment - PE790.193 - Proposal for a Regulation of the European Parliament and of the Council on speeding-up environmental assessments\n- Draft report / Draft recommendation - PE788.874 - Proposal for a Regulation of the European Parliament and of the Council on speeding-up environmental assessments\n- Miscellaneous - EIA_Final_VL - Speeding-up environmental assessments - voting list\n- Miscellaneous - ENVI_EIA-Final_CAs - Speeding-up environmental assessments - compromise amendments\n- COM - COM(2025)0984 - Proposal for a Regulation of the European Parliament and of the Council on speeding-up environmental assessments"
   }
  ],
- "have_your_say": [
-  {
-   "uid": "43a46c870c1d2da3102c",
-   "source": "have_your_say",
-   "title": "[related] Have your say DEADLINE: Road transport smart enforcement and simplification",
-   "start": "2026-11-24",
-   "end": "2026-11-24",
-   "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/19220.0_en",
-   "description": "Feedback / consultation closes today."
-  },
-  {
-   "uid": "66759d3c71f4691ecba8",
-   "source": "have_your_say",
-   "title": "[related] Have your say DEADLINE: Smart enforcement and simplification in road transport - omnibus (Regulation)",
-   "start": "2026-11-24",
-   "end": "2026-11-24",
-   "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/19613.0_en",
-   "description": "Feedback / consultation closes today."
-  },
-  {
-   "uid": "d87495066807acb82fd7",
-   "source": "have_your_say",
-   "title": "[related] Have your say DEADLINE: Smart enforcement and simplification in road transport - omnibus (Directive)",
-   "start": "2026-11-24",
-   "end": "2026-11-24",
-   "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/19612.0_en",
-   "description": "Feedback / consultation closes today."
-  },
-  {
-   "uid": "c9a93ae4ba25aba28231",
-   "source": "have_your_say",
-   "title": "[related] Have your say DEADLINE: Simplification of reporting requirements under Regulation (EC) No 1370/2007 on public transport by rail and by road",
-   "start": "2026-11-24",
-   "end": "2026-11-24",
-   "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/19496.0_en",
-   "description": "Feedback / consultation closes today."
-  },
-  {
-   "uid": "ccef05cd32228c601b8e",
-   "source": "have_your_say",
-   "title": "[related] Have your say DEADLINE: Introduction of over-the-air updates of tachograph software for smart enforcement and simplification purposes.",
-   "start": "2026-11-24",
-   "end": "2026-11-24",
-   "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/19495.0_en",
-   "description": "Feedback / consultation closes today."
-  }
- ],
+ "have_your_say": [],
  "legislative_train": [
   {
    "uid": "0af13c10cc421766b069",
