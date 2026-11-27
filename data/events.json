@@ -1,6 +1,16 @@
 {
  "commission_calendar": [],
- "ep_thinktank_events": [],
+ "ep_thinktank_events": [
+  {
+   "uid": "872b3b4c180d5c349f18",
+   "source": "ep_thinktank_events",
+   "title": "[Water Resilience, Water Initiative] EP event: Workshops - New Knowledge and Innovation Community in the field of water, marine and maritime sectors-EIT Water - 09-12-2026 - Scientific foresight",
+   "start": "2026-11-26",
+   "end": "2026-11-26",
+   "url": "https://www.europarl.europa.eu/thinktank/en/events/details/new-knowledge-and-innovation-community-i/20261110WKS07321",
+   "description": "Europe faces growing water stress, droughts, floods and degradation of aquatic ecosystems, made worse by regional disparities and climate change. Research too often fails to become practical solutions and skilled jobs, because efforts are fragmented across regions and sectors. The launch of EIT Water, the new Knowledge and Innovation Community (KIC) on water, marine and maritime sectors, together with the EU Water Resilience Strategy, offers an opportunity to bring innovation, education and entrepreneurship together and speed up Europe’s transition to water and blue resilience. This STOA event"
+  }
+ ],
  "envi_agendas": [
   {
    "uid": "eac6163d9530fdb6fca9",
@@ -10,6 +20,15 @@
    "end": "2026-11-04",
    "url": "https://emeeting.europarl.europa.eu/emeeting/committee/en/agenda/202611/ENVI",
    "description": "On the agenda:\n- Speeding-up environmental assessments\n- ***I 2025/0391(COD) COM(2025)0984 - C10-0337/2025\n- Amendment - PE790.190 - Proposal for a Regulation of the European Parliament and of the Council on speeding-up environmental assessments\n- Amendment - PE790.193 - Proposal for a Regulation of the European Parliament and of the Council on speeding-up environmental assessments\n- Draft report / Draft recommendation - PE788.874 - Proposal for a Regulation of the European Parliament and of the Council on speeding-up environmental assessments\n- Miscellaneous - EIA_Final_VL - Speeding-up environmental assessments - voting list\n- Miscellaneous - ENVI_EIA-Final_CAs - Speeding-up environmental assessments - compromise amendments\n- COM - COM(2025)0984 - Proposal for a Regulation of the European Parliament and of the Council on speeding-up environmental assessments"
+  },
+  {
+   "uid": "0dfefc1475ad632f8a56",
+   "source": "envi_agendas",
+   "title": "[related] ENVI committee",
+   "start": "2026-12-01",
+   "end": "2026-12-01",
+   "url": "https://emeeting.europarl.europa.eu/emeeting/committee/en/agenda/202612/ENVI",
+   "description": "On the agenda:\n- Amending Directives 2008/98/EC, 2010/75/EU, (EU) 2015/2193 and (EU) 2024/1785 of the European Parliament and of the Council as regards simplification of some requirements and reduction of administrative burden\n- Draft report / Draft recommendation - PE787.998 - Proposal for a Directive of the European Parliament and of the Council amending Directives 2008/98/EC, 2010/75/EU, (EU) 2015/2193 and (EU) 2024/1785 of the European Parliament and of the Council as regards simplification of some requirements and redu\n- Amendment - PE791.123 - Proposal for a Directive of the European Parliament and of the Council amending Directives 2008/98/EC, 2010/75/EU, (EU) 2015/2193 and (EU) 2024/1785 of the European Parliament and of the Council as regards simplification of some requirements and reduction of administrative bu\n- Amendment - PE790.834 - Proposal for a Directive of the European Parliament and of the Council amending Directives 2008/98/EC, 2010/75/EU, (EU) 2015/2193 and (EU) 2024/1785 of the European Parliament and of the Council as regards simplification of some requirements and reduction of administrative bu\n- Adopted opinion - PE787.938 - Proposal for a Directive of the European Parliament and of the Council amending Directives 2008/98/EC, 2010/75/EU, (EU) 2015/2193 and (EU) 2024/1785 of the European Parliament and of the Council as regards simplification of some requirements and reduction of administrat\n- Adopted opinion - PE787.849 - Proposal for a Directive of the European Parliament and of the Council amending Directives 2008/98/EC, 2010/75/EU, (EU) 2015/2193 and (EU) 2024/1785 of the European Parliament and of the Council as regards simplification of some requirements and reduction of administrat\n- COM - COM(2025)0986 - Proposal for a Directive of the European Parliament and of the Council amending Directives 2008/98/EC, 2010/75/EU, (EU) 2015/2193 and (EU) 2024/1785 of the European Parliament and of the Council as regards simplification of some requirements and reduction of administrative burd\n- Amending Regulation (EU) 2023/1542 and Regulation (EU) 2024/1244 as regards simplification of some requirements and reduction of administrative burden"
   }
  ],
  "have_your_say": [],
