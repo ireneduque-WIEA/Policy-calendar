@@ -2,6 +2,15 @@
  "commission_calendar": [],
  "ep_thinktank_events": [
   {
+   "uid": "1cbc9854e95579871f8a",
+   "source": "ep_thinktank_events",
+   "title": "[related] EP event: Other events - DEVE delegation to Bolivia on 27-29 October 2026 - 27-10-2026 - Development",
+   "start": "2026-10-29",
+   "end": "2026-10-29",
+   "url": "https://www.europarl.europa.eu/thinktank/en/events/details/deve-delegation-to-bolivia-on-27-29-octo/20261014MIS04296",
+   "description": "A delegation of 3 Members, led by MEP Reinhold LOPATKA (EPP), traveled to Bolivia from 27 to 29 October. The purpose of the mission was to review the EU development portfolio in Bolivia, particularly in the context of the current programming period. The mission particularly focused on: - human development issues. Bolivia, a lower-middle-income country, continues to face high levels of economic and social inequality, especially in rural and indigenous areas. These levels of inequality are among the highest in Latin America and represent major obstacles to the country's development; - climate ac"
+  },
+  {
    "uid": "872b3b4c180d5c349f18",
    "source": "ep_thinktank_events",
    "title": "[Water Resilience, Water Initiative] EP event: Workshops - New Knowledge and Innovation Community in the field of water, marine and maritime sectors-EIT Water - 09-12-2026 - Scientific foresight",
